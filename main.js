@@ -23,7 +23,7 @@ h1.textContent = "Clima Tempo";
 
 // Crie a imagem
 const img = document.createElement("img");
-img.src = "/src/img/pngwing.com.png";
+img.src = "./src/assets/weather.png";
 img.alt = "imagem não carregada";
 
 // Crie o input
@@ -174,7 +174,7 @@ const link = document.createElement("a");
 link.href = "https://www.linkedin.com/in/felipe-damazio/";
 
 const linkedInImg = document.createElement("img");
-linkedInImg.src = "./src/img/felp.png";
+linkedInImg.src = "./src/assets/felp.png";
 linkedInImg.classList.add("felp");
 
 link.appendChild(linkedInImg);
