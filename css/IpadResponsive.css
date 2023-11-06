@@ -1,0 +1,16 @@
+@media screen and (max-width: 1024px) {
+  .ClimaTempo {
+    grid-row-gap: 2em; }
+    .ClimaTempo .content {
+      flex-direction: column-reverse;
+      grid-row-gap: 3.5em; }
+      .ClimaTempo .content .dados {
+        width: -webkit-fill-available; }
+        .ClimaTempo .content .dados .infos-adicionais {
+          display: flex;
+          flex-direction: column;
+          grid-row-gap: 1em; }
+          .ClimaTempo .content .dados .infos-adicionais .subgrup-one {
+            flex-direction: column; }
+      .ClimaTempo .content .calendar {
+        display: none; } }

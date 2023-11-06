@@ -1,0 +1,155 @@
+
+
+@media screen and (max-width: 896px) {
+
+    .ClimaTempo {
+        margin-top: 20px;
+        grid-row-gap: 1.5em;
+
+        .content {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            grid-row-gap: 4.5em;
+
+            .hora-atual {
+                display: flex;
+                font-size: 1.3em;
+                color: rgb(255, 4, 4);
+                font-family: "Alfa Slab One", cursive;
+                text-shadow: 2px 3px rgba(0, 0, 0, 0.9);
+                justify-content: center;
+                flex-direction: column;
+                position: relative;
+                bottom: 2em;
+            }
+
+
+            .dados {
+                font-family: "Alfa Slab One", cursive;
+                width: -webkit-fill-available;
+
+                .city {
+                    font-size: 1.8em;
+                    font-weight: 10px;
+                }
+
+                .infos-adicionais {
+                    width: -webkit-fill-available;
+
+                    i,
+                    span {
+                        padding: 5px;
+                    }
+
+                    .subgrup-one {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+                        width: -webkit-fill-available;
+
+                        .temp {
+                            font-size: 3em;
+                            font-weight: 700px;
+                            color: rgb(231, 191, 12);
+                            animation: text 3s infinite linear;
+                        }
+
+                        .desc {
+                            font-size: 1.2em;
+                        }
+                    }
+
+                    .subgrup-two {
+                        font-size: 1.3em;
+
+                        i,
+                        span {
+                            padding: 10px;
+                        }
+
+                    }
+
+                    .subgrup-three {
+                        display: block;
+
+                        .humidade,
+                        .vento-velocidade,
+                        .vento-direcao,
+                        .sunrise,
+                        .sunset {
+                            padding: 0;
+                            flex-direction: row;
+                            align-items: center;
+                        }
+                    }
+                }
+
+                #map {
+                    height: 20em;
+                }
+            }
+        }
+    }
+
+
+    .calendar {
+        display: none;
+    }
+
+    .header {
+
+        img {
+            width: 0.8em;
+            height: 0.8em;
+        }
+
+        h1 {
+            margin-top: 40px;
+            font-size: 2.5em;
+        }
+
+        input {
+            margin-top: 10px;
+            font-size: 1.3em;
+            width: 85%;
+        }
+
+        .currentDate,
+        .saudacao {
+            color: white;
+            color: rgba(118, 181, 235, 0.9);
+            font-family: "Alfa Slab One", cursive;
+        }
+
+        .saudacao {
+            position: absolute;
+            left: 1em;
+            top: 2em;
+            font-size: 12px;
+        }
+
+        .currentDate {
+            position: absolute;
+            left: 1em;
+            top: 0.3em;
+            font-size: 16px;
+
+        }
+    }
+
+    footer {
+        position: relative;
+        top: 3em;
+
+        a {
+            position: relative;
+            bottom: 2em
+        }
+
+        img {
+            width: 7em;
+        }
+    }
+
+}

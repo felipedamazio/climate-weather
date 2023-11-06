@@ -1,0 +1,123 @@
+.calendar {
+  font-family: 'IBM Plex Sans', sans-serif;
+  background: var(--calendar-bg-color);
+  color: var(--calendar-font-color);
+  font-weight: normal;
+  border-radius: var(--calendar-border-radius);
+
+
+
+
+  &-inner {
+    padding: 10px 10px;
+
+    & .calendar-body {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      text-align: center;
+      justify-content: center;
+
+      & div {
+        padding: 3px;
+        min-height: 34px;
+        line-height: 34px;
+        border: 1px solid transparent;
+        margin: 0px 2px 0px;
+
+        &:nth-child(-n+7) {
+          border: 1px solid transparent;
+          border-bottom: 1px solid var(--weekdays-border-bottom-color);
+        }
+
+        &:hover {
+          border: 1px solid transparent;
+          border-bottom: 1px solid var(--weekdays-border-bottom-color);
+        }
+
+        &>a {
+          color: var(--calendar-font-color);
+          text-decoration: none;
+          display: flex;
+          justify-content: center;
+        }
+
+        &.empty-dates:hover {
+          border: 1px solid transparent;
+        }
+      }
+
+      & .calendar-today {
+        background: var(--calendar-today-color);
+        border-radius: 4px;
+
+        &:hover {
+          border: 1px solid transparent;
+        }
+
+        & a {
+          outline: 2px solid var(--calendar-today-innerborder-color);
+        }
+      }
+
+      & .prev-dates,
+      & .next-dates {
+        color: var(--calendar-prevnext-date-color);
+
+        &:hover {
+          border: 1px solid transparent;
+          pointer-events: none;
+        }
+      }
+    }
+
+    & .calendar-controls {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      & .calendar-year-month {
+        display: flex;
+        min-width: 100px;
+        justify-content: space-evenly;
+        align-items: center;
+
+        & .calendar-year-label,
+        & .calendar-month-label {
+          font-weight: 500;
+          font-size: 15px;
+        }
+      }
+
+      & .calendar-next {
+        text-align: right;
+      }
+
+      & .calendar-today-date {
+        display: grid;
+        text-align: center;
+        cursor: pointer;
+        margin: 3px 0px;
+        background: #004467;
+        padding: -7px 0px;
+        border-radius: 29px;
+        width: 65%;
+        margin: 8px 0 -1px 56px;
+      }
+
+      & .calendar-next a,
+      & .calendar-prev a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & svg {
+          height: 20px;
+          width: 20px;
+
+          & path {
+            fill: var(--next-prev-arrow-color);
+          }
+        }
+      }
+    }
+  }
+}

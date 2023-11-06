@@ -1,0 +1,94 @@
+@media screen and (max-width: 896px) {
+  .ClimaTempo {
+    margin-top: 20px;
+    grid-row-gap: 1.5em; }
+    .ClimaTempo .content {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      grid-row-gap: 4.5em; }
+      .ClimaTempo .content .hora-atual {
+        display: flex;
+        font-size: 1.3em;
+        color: #ff0404;
+        font-family: "Alfa Slab One", cursive;
+        text-shadow: 2px 3px rgba(0, 0, 0, 0.9);
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        bottom: 2em; }
+      .ClimaTempo .content .dados {
+        font-family: "Alfa Slab One", cursive;
+        width: -webkit-fill-available; }
+        .ClimaTempo .content .dados .city {
+          font-size: 1.8em;
+          font-weight: 10px; }
+        .ClimaTempo .content .dados .infos-adicionais {
+          width: -webkit-fill-available; }
+          .ClimaTempo .content .dados .infos-adicionais i,
+          .ClimaTempo .content .dados .infos-adicionais span {
+            padding: 5px; }
+          .ClimaTempo .content .dados .infos-adicionais .subgrup-one {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: -webkit-fill-available; }
+            .ClimaTempo .content .dados .infos-adicionais .subgrup-one .temp {
+              font-size: 3em;
+              font-weight: 700px;
+              color: #e7bf0c;
+              animation: text 3s infinite linear; }
+            .ClimaTempo .content .dados .infos-adicionais .subgrup-one .desc {
+              font-size: 1.2em; }
+          .ClimaTempo .content .dados .infos-adicionais .subgrup-two {
+            font-size: 1.3em; }
+            .ClimaTempo .content .dados .infos-adicionais .subgrup-two i,
+            .ClimaTempo .content .dados .infos-adicionais .subgrup-two span {
+              padding: 10px; }
+          .ClimaTempo .content .dados .infos-adicionais .subgrup-three {
+            display: block; }
+            .ClimaTempo .content .dados .infos-adicionais .subgrup-three .humidade,
+            .ClimaTempo .content .dados .infos-adicionais .subgrup-three .vento-velocidade,
+            .ClimaTempo .content .dados .infos-adicionais .subgrup-three .vento-direcao,
+            .ClimaTempo .content .dados .infos-adicionais .subgrup-three .sunrise,
+            .ClimaTempo .content .dados .infos-adicionais .subgrup-three .sunset {
+              padding: 0;
+              flex-direction: row;
+              align-items: center; }
+        .ClimaTempo .content .dados #map {
+          height: 20em; }
+  .calendar {
+    display: none; }
+  .header img {
+    width: 0.8em;
+    height: 0.8em; }
+  .header h1 {
+    margin-top: 40px;
+    font-size: 2.5em; }
+  .header input {
+    margin-top: 10px;
+    font-size: 1.3em;
+    width: 85%; }
+  .header .currentDate,
+  .header .saudacao {
+    color: white;
+    color: rgba(118, 181, 235, 0.9);
+    font-family: "Alfa Slab One", cursive; }
+  .header .saudacao {
+    position: absolute;
+    left: 1em;
+    top: 2em;
+    font-size: 12px; }
+  .header .currentDate {
+    position: absolute;
+    left: 1em;
+    top: 0.3em;
+    font-size: 16px; }
+  footer {
+    position: relative;
+    top: 3em; }
+    footer a {
+      position: relative;
+      bottom: 2em; }
+    footer img {
+      width: 7em; } }
