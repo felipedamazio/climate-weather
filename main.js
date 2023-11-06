@@ -5,6 +5,10 @@ import { currentHour } from "./src/Js/currentHour.js";
 import { eventSearch } from "./src/Js/ClimaTempo.js";
 import { initMaps } from "./src/Js/maps.js";
 
+// import images  ----------------------------------
+import felpLogo from "./src/assets/img/felp.png";
+import weather from "./src/assets/img/weather.png";
+
 // Crie a seção .main
 const mainSection = document.createElement("section");
 mainSection.classList.add("main");
@@ -23,7 +27,7 @@ h1.textContent = "Clima Tempo";
 
 // Crie a imagem
 const img = document.createElement("img");
-img.src = "./src/assets/img/weather.png";
+img.src = weather;
 img.alt = "imagem não carregada";
 
 // Crie o input
@@ -174,7 +178,7 @@ const link = document.createElement("a");
 link.href = "https://www.linkedin.com/in/felipe-damazio/";
 
 const linkedInImg = document.createElement("img");
-linkedInImg.src = "./src/assets/img/felp.png";
+linkedInImg.src = felpLogo;
 linkedInImg.classList.add("felp");
 
 link.appendChild(linkedInImg);

@@ -1,3 +1,5 @@
+import pinMarker from "../assets/img/pin-verde.png";
+
 let myMap;
 let marker;
 export const initMaps = () => {
@@ -23,7 +25,7 @@ export const markerResult = (result) => {
   let position = [latitude, longitude];
 
   let iconVerde = new L.Icon({
-    iconUrl: "../src/assets/img/pin-verde.png",
+    iconUrl: pinMarker,
     iconSize: [40, 45],
     shadowSize: [50, 64],
     iconAnchor: [20, 40],
