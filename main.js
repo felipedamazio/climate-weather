@@ -23,7 +23,7 @@ h1.textContent = "Clima Tempo";
 
 // Crie a imagem
 const img = document.createElement("img");
-img.src = "../src/img/pngwing.com.png";
+img.src = "./src/img/pngwing.com.png";
 img.alt = "imagem não carregada";
 
 // Crie o input
