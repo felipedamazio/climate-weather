@@ -23,7 +23,7 @@ export const markerResult = (result) => {
   let position = [latitude, longitude];
 
   let iconVerde = new L.Icon({
-    iconUrl: "src/assets/pinVerde.PNG",
+    iconUrl: "../src/assets/pinVerde.PNG",
     iconSize: [40, 45],
     shadowSize: [50, 64],
     iconAnchor: [20, 40],
