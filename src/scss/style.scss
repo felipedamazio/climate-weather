@@ -1,77 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
 
 :root {
-    --calendar-bg-color: #4a8daf;
-    --calendar-font-color: #FFF;
-    --weekdays-border-bottom-color: #404040;
-    --calendar-date-hover-color: #505050;
-    --calendar-current-date-color: #1b1f21;
-    --calendar-today-color: linear-gradient(to bottom, #ff1100, #f32121);
-    --calendar-today-innerborder-color: transparent;
-    --calendar-nextprev-bg-color: transparent;
-    --next-prev-arrow-color: #FFF;
-    --calendar-border-radius: 16px;
-    --calendar-prevnext-date-color: #484848
+  --calendar-bg-color: #4a8daf;
+  --calendar-font-color: #FFF;
+  --weekdays-border-bottom-color: #404040;
+  --calendar-date-hover-color: #505050;
+  --calendar-current-date-color: #1b1f21;
+  --calendar-today-color: linear-gradient(to bottom, #ff1100, #f32121);
+  --calendar-today-innerborder-color: transparent;
+  --calendar-nextprev-bg-color: transparent;
+  --next-prev-arrow-color: #FFF;
+  --calendar-border-radius: 16px;
+  --calendar-prevnext-date-color: #484848
 }
 
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+
 }
 
 html,
 body {
-    height: 100%;
-    background:url('../src/assets/bg1.jpg');      
+  height: 100%;
+  background: url('../src/assets/bg1.jpg');
 }
 
 
 
 section.main {
 
-    width: 100%;
-    min-height: 70%;
-    background-size: cover;
-    height: 100%;
+  width: 100%;
+  min-height: 70%;
+  background-size: cover;
+  height: 100%;
 
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 5%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 5%;
 
-    img {
+  img {
     width: 13em;
-    }
+  }
 }
 
 @keyframes text {
-    0% {
-      opacity: 1;
-    }
-    20% {
-      opacity: 0.7;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    60% {
-      opacity: 0.4;
-    }
-    80% {
-      opacity: 0.6;
-    }
-    90% {
-      opacity: 0.8;
-    }
-    100% {
-      opacity: 1;
-    }
+  0% {
+    opacity: 1;
   }
 
+  20% {
+    opacity: 0.7;
+  }
 
+  40% {
+    opacity: 0.6;
+  }
 
+  60% {
+    opacity: 0.4;
+  }
 
+  80% {
+    opacity: 0.6;
+  }
 
+  90% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
