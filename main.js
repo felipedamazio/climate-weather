@@ -174,7 +174,7 @@ const link = document.createElement("a");
 link.href = "https://www.linkedin.com/in/felipe-damazio/";
 
 const linkedInImg = document.createElement("img");
-linkedInImg.src = "../src/assets/felp.png";
+linkedInImg.src = "./src/assets/felp.png";
 linkedInImg.classList.add("felp");
 
 link.appendChild(linkedInImg);
@@ -192,5 +192,6 @@ app.appendChild(mainSection);
 // funções executadas após a montagem do html
 initMaps();
 CalendarControl();
-setInterval(currentHour, 1000);
+// setInterval(currentHour, 1000);
+currentHour()
 eventSearch();
