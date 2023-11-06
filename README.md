@@ -10,7 +10,7 @@
 
 <h1 align="center">
 
-   [![Deploy with Vercel](https://vercel.com/button)](https://felipedamazio.github.io/AppClima-Responsivo-/)
+   [![Deploy with Vercel](https://vercel.com/button)](https://climate-weather.vercel.app/)
 </h1>
 
 ### 🛠 Tecnologias
