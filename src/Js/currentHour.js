@@ -5,16 +5,16 @@ export const currentHour = () => {
 
   const Atual = new Date(time);  
          
-  document.querySelector(".info-bra").innerHTML = '<img src="./src/assets/brazil.png" alt=""> Brasília - BR';  
+  document.querySelector(".info-bra").innerHTML = '<img src="./src/img/brazil.png" alt=""> Brasília - BR';  
   document.querySelector(".hora-bra").innerHTML = Atual.toLocaleTimeString('pt-BR');
 
-  document.querySelector(".info-usa").innerHTML = '<img src="./src/assets/united-states.png" alt=""> New York - US';  
+  document.querySelector(".info-usa").innerHTML = '<img src="./src/img/united-states.png" alt=""> New York - US';  
   document.querySelector(".hora-usa").innerHTML = Atual.toLocaleTimeString("en-US", { timeZone: 'America/New_York',});
 
-  document.querySelector(".info-fra").innerHTML = '<img src="./src/assets/france.png" alt=""> Paris - FR';  
+  document.querySelector(".info-fra").innerHTML = '<img src="./src/img/france.png" alt=""> Paris - FR';  
   document.querySelector(".hora-fra").innerHTML = Atual.toLocaleTimeString("fr-FR", { timeZone: 'Europe/Paris'});
 
-  document.querySelector(".info-chi").innerHTML = '<img src="./src/assets/china.png" alt=""> Shangai - CN';  
+  document.querySelector(".info-chi").innerHTML = '<img src="./src/img/china.png" alt=""> Shangai - CN';  
   document.querySelector(".hora-chi").innerHTML = Atual.toLocaleTimeString("zh-CN", { timeZone:'Asia/Shanghai'});    
 
 };
