@@ -194,6 +194,7 @@ const app = document.querySelector("#app");
 app.appendChild(mainSection);
 
 // funções executadas após a montagem do html
+currentHour();
 setInterval(currentHour, 1000);
 initMaps();
 CalendarControl();
