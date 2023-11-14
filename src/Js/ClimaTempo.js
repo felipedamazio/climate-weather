@@ -34,6 +34,9 @@ const displayResult = (result) => {
   let desc = document.querySelector(".desc");
   desc.innerText = result.weather[0].description;
 
+  let iconDesc = document.querySelector(".icon-desc");
+  iconDesc.src = `https://openweathermap.org/img/wn/${result.weather[0].icon}.png`;
+
   let min = document.querySelector(".min span");
   min.innerText = `${Math.round(result.main.temp_min)}°C`;
   let max = document.querySelector(".max span");

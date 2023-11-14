@@ -97,8 +97,14 @@ for (let j = 0; j < subgrupos.length; j++) {
     descDiv.classList.add("desc");
     descDiv.textContent = "Condição";
 
+    const IconDesc = document.createElement("img");
+    IconDesc.classList.add("icon-desc");
+    IconDesc.src = ''
+
+
     subgrupoDiv.appendChild(tempDiv);
     subgrupoDiv.appendChild(descDiv);
+    subgrupoDiv.appendChild(IconDesc);
   } else if (j === 1) {
     const minDiv = document.createElement("div");
     minDiv.classList.add("min");
@@ -115,7 +121,8 @@ for (let j = 0; j < subgrupos.length; j++) {
   } else if (j === 2) {
     const humidadeDiv = document.createElement("div");
     humidadeDiv.classList.add("humidade");
-    humidadeDiv.innerHTML = 'Humidade:<span>--</span><i class="fa-solid fa-droplet"></i>';
+    humidadeDiv.innerHTML =
+      'Humidade:<span>--</span><i class="fa-solid fa-droplet"></i>';
 
     const ventoVelocidadeDiv = document.createElement("div");
     ventoVelocidadeDiv.classList.add("vento-velocidade");
@@ -129,7 +136,7 @@ for (let j = 0; j < subgrupos.length; j++) {
 
     const sunriseDiv = document.createElement("div");
     sunriseDiv.classList.add("sunrise");
-    sunriseDiv.innerHTML = 'Nascer do sol:<span>--</span>';
+    sunriseDiv.innerHTML = "Nascer do sol:<span>--</span>";
 
     const sunsetDiv = document.createElement("div");
     sunsetDiv.classList.add("sunset");
