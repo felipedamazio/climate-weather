@@ -115,21 +115,21 @@ for (let j = 0; j < subgrupos.length; j++) {
   } else if (j === 2) {
     const humidadeDiv = document.createElement("div");
     humidadeDiv.classList.add("humidade");
-    humidadeDiv.innerHTML = "Humidade:<span>--</span>";
+    humidadeDiv.innerHTML = 'Humidade:<span>--</span><i class="fa-solid fa-droplet"></i>';
 
     const ventoVelocidadeDiv = document.createElement("div");
     ventoVelocidadeDiv.classList.add("vento-velocidade");
     ventoVelocidadeDiv.innerHTML =
-      'Velocidade do Vento:<span>--</span><i class="fa fa-wind"></i>';
+      'Velocidade do Vento:<span>--</span><i class="fas fa-wind"></i>';
 
     const ventoDirecaoDiv = document.createElement("div");
     ventoDirecaoDiv.classList.add("vento-direcao");
     ventoDirecaoDiv.innerHTML =
-      'Direção do Vento:<span>--</span<i class="fas fa-location-arrow"></i>';
+      'Direção do Vento:<span>--</span><i class="fas fa-location-arrow"></i>';
 
     const sunriseDiv = document.createElement("div");
     sunriseDiv.classList.add("sunrise");
-    sunriseDiv.innerHTML = "Nascer do sol:<span>--</span>";
+    sunriseDiv.innerHTML = 'Nascer do sol:<span>--</span>';
 
     const sunsetDiv = document.createElement("div");
     sunsetDiv.classList.add("sunset");
