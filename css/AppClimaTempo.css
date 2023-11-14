@@ -77,12 +77,15 @@
   flex-direction: column; }
   .header h1 {
     display: flex;
+    align-items: center;
     font-size: 50px;
     color: #d4b735;
     text-shadow: 2px 3px rgba(0, 0, 0, 0.9);
-    margin-top: 15px; }
+    margin-top: 15px;
+    gap: 10px; }
   .header img {
-    width: 1em; }
+    width: 1em;
+    height: 1em; }
   .header input {
     margin-top: 15px;
     background: #ffffff8c;
