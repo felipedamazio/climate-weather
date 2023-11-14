@@ -53,12 +53,12 @@ const displayResult = (result) => {
   ventoDirecao.innerText = direccionViento(resultado);
 
   let sunrise = document.querySelector(".sunrise span");
-  let formatSunrise = result.sys.sunrise
+  let formatSunrise = result.sys.sunrise;
   sunrise.innerText = formataData(formatSunrise * 1000);
 
   let sunset = document.querySelector(".sunset span");
-  let formatSunset = result.sys.sunset
-  sunset.innerText = formataData(formatSunset  * 1000);
+  let formatSunset = result.sys.sunset;
+  sunset.innerText = formataData(formatSunset * 1000);
 
   markerResult(result);
 };
@@ -67,7 +67,7 @@ function direccionViento(deg) {
   if (deg > 337.5) return "Norte";
   if (deg > 292.5) return "Noroeste";
   if (deg > 247.5) return "Oeste";
-  if (deg > 202.5) return "Suldoeste";
+  if (deg > 202.5) return "Sudoeste";
   if (deg > 157.5) return "Sul";
   if (deg > 122.5) return "Sudeste";
   if (deg > 67.5) return "Oeste";
@@ -77,9 +77,9 @@ function direccionViento(deg) {
 
 function formataData(date) {
   let format = new Date(date);
-  const hour = format.getHours();
-  const min = format.getMinutes();
-  const sec = format.getSeconds();
+  const hour = ("0" + format.getHours()).slice(-2);
+  const min = ("0" + format.getMinutes()).slice(-2);
+  const sec = ("0" + format.getSeconds()).slice(-2);
   const dateFormater = `${hour}:${min}:${sec}`;
   return dateFormater;
 }
