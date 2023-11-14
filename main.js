@@ -99,8 +99,7 @@ for (let j = 0; j < subgrupos.length; j++) {
 
     const IconDesc = document.createElement("img");
     IconDesc.classList.add("icon-desc");
-    IconDesc.src = ''
-
+    IconDesc.src = "";
 
     subgrupoDiv.appendChild(tempDiv);
     subgrupoDiv.appendChild(descDiv);
@@ -134,19 +133,26 @@ for (let j = 0; j < subgrupos.length; j++) {
     ventoDirecaoDiv.innerHTML =
       'Direção do Vento:<span>--</span><i class="fas fa-location-arrow"></i>';
 
+    const hourSun = document.createElement("div");
+    hourSun.classList.add("hour-sun");
+
     const sunriseDiv = document.createElement("div");
     sunriseDiv.classList.add("sunrise");
-    sunriseDiv.innerHTML = "Nascer do sol:<span>--</span>";
+    sunriseDiv.innerHTML =
+      'Nascer do sol:<span>--</span><i class="fas fa-sun" style="color:red"></i>';
 
     const sunsetDiv = document.createElement("div");
     sunsetDiv.classList.add("sunset");
-    sunsetDiv.innerHTML = "Por do sol:<span>--</span>";
+    sunsetDiv.innerHTML =
+      'Por do sol:<span>--</span><i class="fas fa-sun"></i> ';
+
+    hourSun.appendChild(sunriseDiv);
+    hourSun.appendChild(sunsetDiv);
 
     subgrupoDiv.appendChild(humidadeDiv);
     subgrupoDiv.appendChild(ventoVelocidadeDiv);
     subgrupoDiv.appendChild(ventoDirecaoDiv);
-    subgrupoDiv.appendChild(sunriseDiv);
-    subgrupoDiv.appendChild(sunsetDiv);
+    subgrupoDiv.appendChild(hourSun);
   }
 
   infosAdicionaisDiv.appendChild(subgrupoDiv);
