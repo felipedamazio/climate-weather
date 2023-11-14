@@ -53,10 +53,12 @@ const displayResult = (result) => {
   ventoDirecao.innerText = direccionViento(resultado);
 
   let sunrise = document.querySelector(".sunrise span");
-  sunrise.innerText = formataData(result.sys.sunrise);
+  let formatSunrise = result.sys.sunrise
+  sunrise.innerText = formataData(formatSunrise * 1000);
 
   let sunset = document.querySelector(".sunset span");
-  sunset.innerText = formataData(result.sys.sunset);
+  let formatSunset = result.sys.sunset
+  sunset.innerText = formataData(formatSunset  * 1000);
 
   markerResult(result);
 };
