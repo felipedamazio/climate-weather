@@ -43,12 +43,12 @@ The following tools were used to build the project:
 </div>
 
 ### API's e LIB's
-<p align="center"><a href="https://openweathermap.org/api">Weather API - Coleta de dados meteorológicos atuais e previsíveis.
+<p align="center"><a href="https://openweathermap.org/api">Weather API</a> - Collection of current and forecasted weather data.
 </p>
-<p align="center"><a href="https://leafletjs.com/examples/quick-start/">LEAFLET - Uma biblioteca JavaScript de código aberto
-para mapas interativos compatíveis com dispositivos móveis.
+<p align="center"><a href="https://leafletjs.com/examples/quick-start/">LEAFLET</a> - An open source JavaScript library
+for mobile-friendly interactive maps.
 </p>
-<p align="center"><a href="https://leafletjs.com/examples/quick-start/">MAPTILER - Mapas para desenvolvedores.
+<p align="center"><a href="https://leafletjs.com/examples/quick-start/">MAPTILER</a> - Maps for Developers.
 </p>
 
 
