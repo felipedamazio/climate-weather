@@ -4,7 +4,7 @@
 ![READE-ME-Felp](https://github.com/felipedamazio/climate-weather/assets/71530559/f01f42f0-44ee-47c3-9bdb-e75a4bdca601)
 
 
-# Descrição do Projeto
+# Project description
 <p align="center">CLIMATE WEATHER</p>
 
 
@@ -21,7 +21,9 @@
 --------------------------------------------
    
 ### 🛠 Languages and Tools
-As seguintes ferramentas foram usadas na construção do projeto:
+This project Create [npm create vite@latest](https://vitejs.dev/guide/) - <img align="center" alt="Js" height="40" width="40" src="https://devicons.railway.app/i/vitejs.svg" />
+<br>
+The following tools were used to build the project:
 <br>
 
  <div style="display: inline_block">  
