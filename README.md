@@ -32,6 +32,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <div style="display: inline_block">  
 <img alt="HTML" src="https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg">
 <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/felipedamazio/climate-weather">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/felipedamazio/climate-weather">
 </div>
 
 ### API's e LIB's
