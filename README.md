@@ -8,11 +8,11 @@
 <p align="center">APP CLIMA TEMPO RESPONSIVO </p>
 
 
-<h1 align="center">
+<h2 align="center">
 
    [![Deploy with Vercel](https://vercel.com/button)](https://climate-weather.vercel.app/)
    
-</h1>
+</h2>
 
 ### 🛠 Tecnologias
 As seguintes ferramentas foram usadas na construção do projeto:
