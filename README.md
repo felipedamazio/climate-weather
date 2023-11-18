@@ -18,7 +18,6 @@
    [![Deploy with Vercel](https://vercel.com/button)](https://climate-weather.vercel.app/)
    
 </div>
---------------------------------------------
    
 ### 🛠 Languages and Tools
 This project Create [npm create vite@latest](https://vitejs.dev/guide/) - <img align="center" alt="Js" height="40" width="40" src="https://devicons.railway.app/i/vitejs.svg" />
