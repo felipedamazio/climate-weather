@@ -5,11 +5,16 @@
 
 
 # Descrição do Projeto
-<p align="center">APP CLIMA TEMPO RESPONSIVO </p>
+<p align="center">CLIMATE WEATHER</p>
 
 
 <div align="center">
-
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/felipedamazio/climate-weather?style=for-the-badge">
+<img alt="GitHub deploy" src="https://img.shields.io/github/deployments/felipedamazio/felps-portifolio/production?style=for-the-badge&logo=vercel">
+   
+<br>
+<br>
+   
    [![Deploy with Vercel](https://vercel.com/button)](https://climate-weather.vercel.app/)
    
 </div>
@@ -33,7 +38,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <div style="display: inline_block">  
 <img alt="HTML" src="https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg">
 <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/felipedamazio/climate-weather">
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/felipedamazio/climate-weather">
 </div>
 
 ### API's e LIB's
