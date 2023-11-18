@@ -8,12 +8,13 @@
 <p align="center">APP CLIMA TEMPO RESPONSIVO </p>
 
 
-<h2 align="center">
+<div align="center">
 
    [![Deploy with Vercel](https://vercel.com/button)](https://climate-weather.vercel.app/)
    
-</h2>
-
+</div>
+--------------------------------------------
+   
 ### 🛠 Tecnologias
 As seguintes ferramentas foram usadas na construção do projeto:
 <br>
@@ -22,14 +23,14 @@ As seguintes ferramentas foram usadas na construção do projeto:
   <img align="center" alt="CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
   <img align="center" alt="Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
 
-### API's
-<p align="center">Weather API - Coleta de dados meteorológicos atuais e previsíveis.
-<a href="https://openweathermap.org/api"></p>
-<p align="center">LEAFLET - Uma biblioteca JavaScript de código aberto
+### API's e LIB's
+<p align="center"><a href="https://openweathermap.org/api">Weather API - Coleta de dados meteorológicos atuais e previsíveis.
+</p>
+<p align="center"><a href="https://leafletjs.com/examples/quick-start/">LEAFLET - Uma biblioteca JavaScript de código aberto
 para mapas interativos compatíveis com dispositivos móveis.
-<a href="https://leafletjs.com/examples/quick-start/"></p>
-<p align="center">MAPTILER - Mapas para desenvolvedores.
-<a href="https://leafletjs.com/examples/quick-start/"></p>
+</p>
+<p align="center"><a href="https://leafletjs.com/examples/quick-start/">MAPTILER - Mapas para desenvolvedores.
+</p>
 
 
 ### Autor
