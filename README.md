@@ -50,6 +50,22 @@ for mobile-friendly interactive maps.
 <p align="center"><a href="https://leafletjs.com/examples/quick-start/">MAPTILER</a> - Maps for Developers.
 </p>
 
+## Getting Started
+```bash
+npm install
+```
+<br>
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
 ### Autor
 ---
